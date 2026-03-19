@@ -1,0 +1,1 @@
+Modifies SCHISM output files (e.g. out2d*nc) from - in this case - STOFS3D that have been postprocessed and are not in native SCHISM format anymore. This function recreates a native SCHISM format suited for functions like /schism/src/Utility/OneWayNestScripts/interpolate_variables8.f90 to create boundary forcing files (e.g. elev2D.th.nc or uvd3D.th.nc).
